@@ -57,11 +57,11 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-blockquote:before,
-blockquote:after,
+blockquote:before;
+blockquote:after;
 q:before,
-q:after {
-  content: "";
+q:after 
+  
   content: none;
 }
 table {
@@ -89,11 +89,6 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
-h1,
-h2,
-h3,
-h4,
-h5 {
   font-size: 18px;
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
@@ -105,6 +100,7 @@ p {
 }
 
 .container {
+  background:green;
     width: 800px;
     margin: 0 auto;
   width: 800px;
@@ -351,13 +347,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-  width: 60%;
+   width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
